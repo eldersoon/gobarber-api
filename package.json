@@ -2,6 +2,7 @@
   "name": "modulo2",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "license": "MIT",
   "dependencies": {
     "@sentry/node": "5.14.1",
