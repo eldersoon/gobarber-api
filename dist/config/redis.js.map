@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/config/redis.js"],"names":["host","process","env","REDIS_HOST","port","REDIS_PORT"],"mappings":";;;;;kBAAe;AACbA,QAAMC,QAAQC,GAAR,CAAYC,UADL;AAEbC,QAAMH,QAAQC,GAAR,CAAYG;AAFL,C","file":"redis.js","sourcesContent":["export default {\n  host: process.env.REDIS_HOST,\n  port: process.env.REDIS_PORT\n}\n"]}
