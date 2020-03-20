@@ -26,7 +26,7 @@
   },
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server",
+    "start": "node src/server.js",
     "queue": "nodemon src/queue.js"
   },
   "devDependencies": {
