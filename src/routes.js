@@ -11,10 +11,8 @@ import UserController from './app/controllers/UserController';
 import ProviderController from './app/controllers/ProviderController';
 import AppointmentController from './app/controllers/AppointmentController';
 import SessionController from './app/controllers/SessionController';
-import ScheduleController from './app/controllers/ScheduleController';
 import FileController from './app/controllers/FileController';
 import NotificationController from './app/controllers/NotificationController';
-import AppointmentController from './app/controllers/AppointmentController';
 import ScheduleController from './app/controllers/ScheduleController';
 import AvailableController from './app/controllers/AvailableController'
 
