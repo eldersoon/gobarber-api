@@ -1,3 +1,6 @@
+require('babel-core/register');
+require('babel-polyfill');
+
 import app from './app';
 import cors from 'cors';
 

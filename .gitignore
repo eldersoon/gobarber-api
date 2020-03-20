@@ -90,3 +90,5 @@ typings/
 #vs code
 .vscode/
 
+#dist dir
+dist
