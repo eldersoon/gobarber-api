@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/server.js"],"names":["app","listen","use"],"mappings":";;AAAA;;;;AACA;;;;;;AAEAA,cAAIC,MAAJ,CAAW,IAAX;AACAD,cAAIE,GAAJ,CAAQ,qBAAR","file":"server.js","sourcesContent":["import app from './app';\nimport cors from 'cors';\n\napp.listen(3000);\napp.use(cors());\n"]}
