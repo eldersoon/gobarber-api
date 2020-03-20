@@ -1,4 +1,4 @@
-import 'esm';
+import 'babel-polyfill';
 import app from './app';
 import cors from 'cors';
 
