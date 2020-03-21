@@ -28,7 +28,7 @@
   },
   "scripts": {
     "dev": "nodemon src/server.js",
-    "build": "rimraf dist && babel src -s -D -d dist --presets env",
+    "build": "rimraf dist && sucrase ./src -d ./dist --transform imports",
     "start": "node dist/server.js",
     "queue": "nodemon src/queue.js"
   },
