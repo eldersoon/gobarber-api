@@ -2,7 +2,6 @@
   "name": "modulo2",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "license": "MIT",
   "dependencies": {
     "@sentry/node": "5.14.1",
@@ -11,7 +10,6 @@
     "cors": "^2.8.5",
     "date-fns": "^2.0.0-beta.5",
     "dotenv": "^8.2.0",
-    "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "express-handlebars": "^3.1.0",
@@ -28,7 +26,7 @@
   },
   "scripts": {
     "dev": "nodemon src/server.js",
-    "build": "rimraf dist && sucrase ./src -d ./dist --transform imports",
+    "build": "rimraf dist && babel src -s -D -d dist --presets env",
     "start": "node dist/server.js",
     "queue": "nodemon src/queue.js"
   },
@@ -47,9 +45,11 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
+    "esm": "^3.2.25",
     "nodemon": "^2.0.2",
     "rimraf": "^3.0.2",
     "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.12.1",
     "ws": "3.3.2"
   },
   "rules": {
